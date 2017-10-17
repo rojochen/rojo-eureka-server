@@ -1,0 +1,14 @@
+server:
+  port: 1500
+spring:
+  application:
+    name: "@project.name@"
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: true
+management:
+  security:
+    enabled: true

@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>rojo.lab</groupId>
-	<artifactId>ms-eureka-server</artifactId>
+	<artifactId>rojo-eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ms-eureka-server</name>
-	<description>ms-eureka-server</description>
+	<name>rojo-eureka-server</name>
+	<description>rojo-eureka-server</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -26,10 +26,10 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-eureka-server</artifactId>
-		</dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+        </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
